@@ -6,7 +6,7 @@
     <artifactId>cometd-project</artifactId>
     <packaging>pom</packaging>
     <name>CometD</name>
-    <version>2.4.3</version>
+    <version>2.4.3-p01-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -75,21 +75,19 @@
 
     <distributionManagement>
         <repository>
-            <id>oss.sonatype.org</id>
-            <name>CometD Maven2 Repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <id>maven.boundary.com</id>
+            <name>maven.boundary.com-releases</name>
+            <url>http://maven.boundary.com/artifactory/external</url>
         </repository>
         <snapshotRepository>
-            <id>oss.sonatype.org</id>
-            <name>CometD Maven2 Snapshot Repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>maven.boundary.com</id>
+            <name>maven.boundary.com-snapshots</name>
+            <url>http://maven.boundary.com/artifactory/external</url>
         </snapshotRepository>
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:git://github.com/cometd/cometd.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/cometd/cometd.git</developerConnection>
-        <url>https://github.com/cometd/cometd</url>
+        <connection>scm:git:git@github.com:boundary/cometd.git</connection>
     </scm>
 
     <organization>
