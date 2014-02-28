@@ -35,7 +35,7 @@ import org.slf4j.LoggerFactory;
  */
 class AnnotationProcessor
 {
-    protected final Logger logger = LoggerFactory.getLogger(getClass().getName());
+    protected static final Logger logger = LoggerFactory.getLogger(AnnotationProcessor.class);
 
     protected boolean processPostConstruct(Object bean)
     {
