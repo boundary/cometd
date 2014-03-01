@@ -166,6 +166,7 @@
                 </plugins>
             </build>
         </profile>
+        <!--
         <profile>
             <id>sign-artifacts</id>
             <activation>
@@ -191,6 +192,7 @@
                 </plugins>
             </build>
         </profile>
+        -->
     </profiles>
 
     <build>
